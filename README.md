@@ -4,18 +4,10 @@
 
 Para baixar a imagem:
 ```bash
-  docker pull sassmh/sassnginx:1.0
+docker pull sassmh/sassnginx:1.0
 ```
 Para rodar:
 ```bash 
-docker run -d sassmh/sassnginx:1.0
+docker container run --name teste -p 8000:80 -d sassnginx:1.00
 ```
-Para ver o ID do container:
-```bash
-docker container ls
-```
-Para ver em qual IP está rodando:
-```bash
-docker inspect [id do container]
-```
-Depois disso basta usar o IPAddress na URL do navegador.
+O endereço é: http://localhost:8000/
