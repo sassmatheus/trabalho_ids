@@ -8,6 +8,6 @@ docker pull sassmh/sassnginx:1.0
 ```
 Para rodar:
 ```bash 
-docker container run --name teste -p 8000:80 -d sassnginx:1.00
+docker container run --name trabalho_ids -d -p 8000:80 sassmh/sassnginx:1.0
 ```
 O endereço é: http://localhost:8000/
